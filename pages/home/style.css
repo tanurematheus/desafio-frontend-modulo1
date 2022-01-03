@@ -1,0 +1,128 @@
+html{    
+    scroll-behavior: smooth;
+}
+
+.hero-section{
+    margin: 54px 165px 0px 165px;
+    height: 600px;
+
+    background-image: url(../../assets/home/image-homepage-hero.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    display: flex;
+    align-items: flex-end;
+}
+
+.hero-section .info{
+    background-color: white;
+    width: 445px;
+    height: 357px;
+}
+
+.info h1{
+    margin: 56px 28px 53px 27px;
+}
+
+.info button{
+    background-color: #203A4C;
+
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.info .btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info .btn .image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 48px;
+    width: 48px;
+
+    background: rgba(0, 0, 0, 0.1);
+    mix-blend-mode: normal;
+    margin-right: 17px;
+
+}
+
+.info button:hover{
+    background-color: #5FB4A2;    
+}
+
+.info button:hover img{
+    filter:brightness(0) invert(1) 
+}
+
+.info a{
+    padding-right: 17px;
+    color: #FFFFFF;
+    display: inline-block;     
+    position: relative;    
+    z-index: 1;    
+}
+
+.sobre{
+    margin: 150px 165px;
+    display: flex;
+}
+
+.sobre img{
+    height: 600px;
+    margin-right: 140px;
+}
+
+.sobre .txt{ 
+    border-top: 1px solid rgba(51, 50, 61, 0.15);
+    border-bottom: 1px solid rgba(51, 50, 61, 0.15);
+}
+
+.sobre h2{
+    margin-top: 51px;
+    margin-bottom: 28px;
+}
+
+.sobre p{
+    font-size: 16px;
+    line-height: 30px;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+    margin-bottom: 24px;
+}
+
+.sobre .btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sobre button{
+    border: 1px solid #33323D;
+
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.sobre button:hover a{
+    background-color:  #33323D;
+    color: #FAFAFA;
+}
+
+.sobre a{
+    display: inline-block;     
+    position: relative;    
+    z-index: 1; 
+    padding: 17px 28px;
+}

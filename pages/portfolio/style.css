@@ -1,0 +1,65 @@
+header{
+    margin-bottom: 94px;
+}
+
+.container-portifolios{
+    padding: 0px 212px;
+}
+
+section{
+    display: flex;
+    justify-content: space-between; 
+    margin-bottom: 80px;
+}
+
+section .txt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-top: 1px solid rgba(51, 50, 61, 0.15);
+    border-bottom: 1px solid rgba(51, 50, 61, 0.15);
+    width: 350px;
+    height: 500px;    
+}
+
+section p{
+    margin-top: 28px;
+    margin-bottom: 54px;
+    font-size: 16px;
+    line-height: 30px;
+    color: #33323D;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}
+
+section img{
+    height: 500px;
+}
+
+button{
+    width: 175px;
+    height: 48px;
+    border: 1px solid #33323D;
+
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+button:hover a{
+    background-color:  #33323D;
+    color: #FAFAFA;
+}
+
+section a{
+    display: inline-block;     
+    position: relative;    
+    z-index: 1; 
+    padding: 17px 37px;
+}
+
+.interessados{
+    margin-top: 150px;
+}

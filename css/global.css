@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    font-family: 'Ibarra Real Nova', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 50px;    
+    letter-spacing: -0.446429px;
+    
+    color: #33323D; 
+}
+
+h2{
+    font-family: 'Ibarra Real Nova', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 42px;
+    letter-spacing: -0.357143px;
+
+    color: #33323D;
+}
+
+h3{
+    font-family: 'Ibarra Real Nova', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 36px;
+    letter-spacing: -0.285714px;
+
+    color: #33323D;
+}
+
+p, a, label, button{
+    text-decoration: none;
+    font-family: 'Public Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+
+    color: #33323D;
+}
+
+button,input{
+    all: unset;
+}
+
+header{
+    margin: 64px 165px 0px 165px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .list, footer .list{
+    list-style: none;
+    display: flex;
+}
+
+header li, footer li{
+    margin-left: 42px;
+}
+
+header a, footer a{
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+}
+
+header .focus{
+    color:  #5FB4A2;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+    background-color: #33323D;
+    padding: 24px 165px;
+}
+
+footer .container{
+    display: flex;
+    align-items: center;
+}
+
+footer a{
+    color:white
+}
+
+footer .links img{
+    margin-left: 15px;
+}
+
+.interessados{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 165px 150px 165px;
+}
+
+.interessados button{       
+    border: 1px solid #33323D;
+
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.interessados button:hover a{
+    background-color:  #33323D;
+    color: #FAFAFA;
+}
+
+.interessados a{
+    display: inline-block;     
+    position: relative;    
+    z-index: 1; 
+    padding: 17px 52px;
+}
